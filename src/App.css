@@ -1,0 +1,33 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.country-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.countryCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.countryCard img {
+  width: 100%;
+  height: auto;
+}
